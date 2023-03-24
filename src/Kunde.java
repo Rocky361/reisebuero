@@ -1,4 +1,4 @@
-public abstract class Kunde {
+public abstract class Kunde implements Vorschrift {
     private int kdNr;
     private String name;
 
@@ -24,7 +24,6 @@ public abstract class Kunde {
     }
 
     // abstrakte muss in den Unterklassen ausimplementiert werden!
-    public abstract double reisePreisBerechnung (double basisPreis);
 
 
 }
